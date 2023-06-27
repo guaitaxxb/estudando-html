@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <title>ATIVIDADE FORMULARIOS</title>
+    </head>
+
+    <body>
+        <h1>CADASTRO SOULCODE</h1>
+        <hr/>
+        <form action="" method="GET">
+            <fieldset>
+                <legend>CADASTRO DADOS PESSOAIS</legend>
+                <label for="">Nome completo:</label>
+                <input
+                    type="text"
+                    name="nome"
+                    maxlength="200"
+                    minlength="1"
+                    placeholder="Digite aqui seu nome completo"
+                    required
+                /><br>
+                <label for="">E-mail:</label>
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="beatriz@example.com"
+                    required
+                /><br>
+
+                <label for="">Senha:</label>
+                <input
+                    type="password"
+                    name="senha"
+                    placeholder="Digite uma senha"
+                    required
+                /><br/>
+
+                <label for="">Telefone</label>
+                <input
+                    type="tel"
+                    name="telefone"
+                    placeholder="(**)945488828"
+                    required
+                /><br />
+            </fieldset>
+            <p></p>
+
+            <fieldset>
+                <legend>CADASTRO DE ENDEREÇO</legend>
+                <label for="">Estado</label>
+                <input
+                    type="text"
+                    name="Estado"
+                    id="Estado"
+                    maxlength="500"
+                    required
+                /><br />
+                <select>
+                    <option disabled selected>Selecione um estado</option>
+                    <option>SP</option>
+                    <option>RJ</option>
+                    <option>CE</option>
+                    <option>BA</option>
+                    <option>FE</option>
+                    <option>PR</option>
+                    <option>TO</option>
+                </select>
+                <br />
+
+                <label for="">Cidade</label>
+                <input
+                    type="text"
+                    name="Cidade"
+                    id="Cidade"
+                    maxlength="500"
+                    required
+                /><br />
+                <select>
+                    <option disabled selected>Selecione um estado</option>
+                    <option>São paulo</option>
+                    <option>Belem</option>
+                    <option>Urbelandia</option>
+                    <option>Cabo frio</option>
+                    <option>Recife</option>
+                    <option>Porto Velho</option>
+                </select>
+                <br />
+
+                <label for="">Numero</label>
+                <input type="text" name="Numero" maxlength="10" required />
+            </fieldset>
+            <p></p>
+
+            <fieldset>
+                <legend>SE APRESENTE PARA NÓS!</legend>
+                <label for="">Biografia:</label><br />
+                <textarea cols="30" rows="3" placeholder="Biografia">Biografia</textarea>
+                <br />
+            </fieldset>
+
+            <small>Are de Atuação</small> <br/>
+            <input type="checkbox" /><small>Fullstack </small>
+            <input type="checkbox" /><small>Cloud</small>
+            <input type="checkbox" /> <small>Ambos</small>
+            <p></p>
+
+            <button type="reset">LIMPAR</button>
+            <button type="submit">ENVIAR</button>
+        </form>
+    </body>
+</html>

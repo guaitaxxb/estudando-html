@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Layout da Pagina</title>
+</head>
+
+<body>
+    <header>
+        <h1>Layout da Pagina</h1>
+
+        <na>
+            <a href="">Sobre</a>
+            <a href="">Contato</a>
+            <a href="">Login</a>
+        </na>
+    </header>
+
+    <main>
+        <!--
+                    <header>  -> Estrutura o cabeçalho da página
+                    <main>    -> Estrutura o corpo principal da pagina
+                    <footer>  -> Ele representa o rodapé da pagina
+                    <aside>   -> Estrutura uma barra lateral
+                    <nav>     -> (NAVEGAÇÃO) Links
+                    <seaction> -> Uma Seção da pagina
+                    <article>  -> Define um artigo na pagina
+                    <div> ->Um container de elementos genericos
+                        -->
+
+                        <SECTION> 
+        <h2>Cadastro Super Heroi</h2>
+        <!-- 
+                GET -> Envia pela url
+                POT -> Envia pelo pacote da requisição
+                ->
+
+                <fieldset> <!-- UMA TABELINHA PARA COLOCAR UM FORMULARIO-->
+        <legend>INFORMAÇÕES PESSOAIS</legend> <!--LEGENDA PARA UMA TABELA-->
+        <form action="" method="GET"> <!-- O METHOD="GET" É PARA INDICAR PARA ONDE A PAGINA VAI-->
+            <!--METHOD É A FORMA QUE ELE VAI SER ENVIADO-->
+            <label for="">Nome:</label> <!-- LABEL FOR É PARA COLOCAR O NOME DO CAMPO A SER PREENCHIDO-->
+            <input type="text" name="nome" maxlength="100" required /> <!-- REQUIRED SERVE PARA UM CAMPO OBRIGATORIO-->
+            <br />
+
+            <label for="e-mail">Email</label>
+            <input type="email" name="email" maxlength="200" required />
+            <br />
+
+            <label for="poderes">Poderes</label>
+            <input type="text" name="poderes" id="poderes" maxlength="500" required
+                placeholder="Digite qual seu poder" /><br />
+            </fieldset>
+
+            <fieldset>
+                <legend>INFORMAÇÕES DE ENDEREÇO</legend>
+                <label for="rua">Rua</label>
+                <input type="text" name="rua" id="rua" maxlength="500" required />
+                <br />
+
+                <label for="estado">UF</label>
+                <input type="text" name="uf" id="uf" maxlength="500" required />
+                <br />
+
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" id="cidade" maxlength="500" required />
+                <br />
+            </fieldset>
+            <button>ENVIAR</button>
+        </form>
+    </SECTION>
+
+        <section>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati tenetur illo doloremque, incidunt sit quisquam vel eveniet repellendus dolorum aperiam nihil atque, dolores, quaerat consequuntur culpa ex eos ipsam corrupti.
+        </section>
+
+        <section>
+            <article>
+            <h2>Artigo 1</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quas doloremque ipsa sint rerum cupiditate libero necessitatibus reprehenderit sed consequuntur delectus placeat, veniam id repellat consectetur nemo ea facere obcaecati!
+            <p></p>
+            </article>
+
+            <article>
+                <h2>Atigo 2</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatum voluptatibus nisi porro quo sunt asperiores saepe doloremque maiores praesentium at repellendus molestiae quod quia, sed dicta, et reprehenderit obcaecati.<p></p>
+            </article>
+
+            <article>
+                <h2>Aritog 3</h2>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum doloremque autem omnis voluptas sed, officiis quibusdam, impedit iste, saepe aut deleniti unde explicabo veritatis exercitationem consequatur recusandae? Eius, omnis pariatur?
+            </article>
+        </section>
+    </main>
+    <p></p>
+    <footer>
+        &copy;Todos os direitos reservados SoulCOde Academy e Porto Seegurp
+    </footer>
+
+
+
+</body>
+</html>
